@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CEDCon 2024</title>
+    <!-- NES.css 및 폰트 불러오기 -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- 커스텀 CSS -->
+    <style>
+        @import url('main.css');
+    </style>
 </head>
 <body>
-    <h1>Wellcome to CED Con2024</h1>
-    
+    <!-- 메인 타이틀 영역 -->
+    <div class="nes-container is-rounded title-container">
+        <!-- 트로피 아이콘 추가 -->
+        <i class="nes-icon trophy is-large"></i>
+        <h1>CEDCon 2024</h1>
+        <i class="nes-icon trophy is-large"></i>
+    </div>
+
+    <!-- Team Kiwii Showcase -->
+    <div class="showcase">
+        <div class="nes-container with-title">
+            <p class="title">Team Kiwii</p>
+            <div class="item">
+                <img src="team_kiwii_image.png" class="nes-avatar is-rounded" alt="Team Kiwii 이미지">
+                <div class="item-content">
+                    <p>Team Kiwii의 프로젝트 설명이 여기에 들어갑니다.</p>
+                    <a href="https://teamkiwii.com" class="nes-btn is-primary">프로젝트 보러가기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team H323 Showcase -->
+    <div class="showcase">
+        <div class="nes-container with-title">
+            <p class="title">Team H323</p>
+            <div class="item">
+                <img src="team_h323_image.png" class="nes-avatar is-rounded" alt="Team H323 이미지">
+                <div class="item-content">
+                    <p>Team H323의 프로젝트 설명이 여기에 들어갑니다.</p>
+                    <a href="https://teamh323.com" class="nes-btn is-primary">프로젝트 보러가기</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

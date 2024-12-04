@@ -1,0 +1,31 @@
+/* 레이아웃 스타일링 */
+.showcase {
+    margin: 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item img {
+    margin-right: 20px;
+}
+.item-content {
+    max-width: 600px;
+}
+.item-content p {
+    margin-bottom: 10px;
+}
+
+/* 타이틀 스타일링 */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-container i {
+    margin-right: 10px;
+}
+.title-container h1 {
+    margin: 0;
+}
